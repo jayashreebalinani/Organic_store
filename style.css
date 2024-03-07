@@ -1,0 +1,84 @@
+
+html,body{
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+  @media screen and (orientation: landscape) {
+    .carousel img {
+      height: 100vh;
+    }
+  }
+  .median-div{
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('green.png');
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 150px;
+   
+    
+    
+
+  }
+  .container1{
+    width: 100%;
+    background-size: cover;
+    background-image: url('image.png');
+    height: 500px;
+    padding-top: 15%;
+  }
+  
+  .col-sm a{
+    color: greenyellow;
+    font-weight: lighter;
+    text-decoration: none;
+    
+  }
+
+  .input-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(173, 162, 162);
+  }
+  
+  .input-container label {
+    margin-right: 10px;
+  }
+  
+  .input-container input[type="text"] {
+    flex: 1;
+    padding: 5px;
+    background-color: transparent;
+    border: none;
+    color: gray;
+  }
+  
+  .input-container button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: greenyellow;
+    border: none;
+  }
+  
+  ::placeholder {
+    color: rgb(214, 210, 210);
+  
+  font-weight: lighter;
+  }
+  
+ 
+ .card-text{
+  color: rgb(143, 145, 145);
+ }
+ #btn{
+  color: white;
+  border-radius: 35px;
+  background-color: rgb(119, 214, 68);
+ padding: 3%;
+
+ }
