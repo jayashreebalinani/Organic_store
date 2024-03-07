@@ -82,3 +82,9 @@ html,body{
  padding: 3%;
 
  }
+ @media only screen and (max-width:500px) {
+  #no-need{
+    display: none;
+  }
+  
+ }
